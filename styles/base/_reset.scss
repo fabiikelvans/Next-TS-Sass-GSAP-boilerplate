@@ -1,0 +1,20 @@
+@use '../abstract' as *;
+
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: $font-inter;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
